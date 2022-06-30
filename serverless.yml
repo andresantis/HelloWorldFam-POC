@@ -3,7 +3,7 @@ service: poc-proj-fam
 provider:
   name: aws
   runtime: nodejs12.x
- stage: dev
+#  stage: dev
  region: sa-east-1
 
 
