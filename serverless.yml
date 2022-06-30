@@ -1,0 +1,13 @@
+service: poc-proj-fam
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+ stage: dev
+ region: sa-east-1
+
+
+functions:
+  hello:
+    handler: handler.hello
+
