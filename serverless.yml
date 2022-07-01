@@ -1,4 +1,4 @@
-service: poc-proj-fam
+service: poc-proj-familyst
 
 provider:
   name: aws
